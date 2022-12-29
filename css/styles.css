@@ -1,12 +1,14 @@
 :root {
 --brand-color: #434455;
+--secondary-text-color: #E7E9FC;
+--light-text-color: #F4F4FD;
 }
 
 body {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     color: #434455;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.2;
 }
@@ -15,14 +17,25 @@ ul>li {
 }
 
 .hero {
-    font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
     color: #fff;
     background-color: #2E2F42;
-    Width: 1440px;
-    Height: 110px;
+}
+
+.about-work{
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.about-us{
+        font-size: 36px;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
 }
 
 /* стилі заголовків */
@@ -58,30 +71,63 @@ a {
 }
 
 
+/* Список преймуществ */
+
+.goals-text{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.goals-description{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.our-team{
+    font-style: normal; 
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.job-title{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
 /* кнопки фільтра */
 .list-button-order {
     cursor: pointer;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     color: #ffffff;
-    width: 170px;
-    height: 51px;
     background: #4D5AE5;
     border-radius: 4px;
 }
 
 .list-button {
     cursor: pointer;
-    font-family: 'Roboto';
+    font-family: 'Roboto',sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     color: #4D5AE5;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    width: 116px;
-    height: 48px;
     background: #F4F4FD;
     border: 1px solid #E7E9FC;
     border-radius: 4px;
@@ -101,6 +147,23 @@ a {
 .link-item:hover,
 .link-item:focus {
     color: #4D5AE5;
+    font-weight: 500;
+}
+
+.mailto,
+.telto {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.mailto:hover {
+    color:#404BBF
+}
+
+.telto:hover{
+    color:#404BBF
 }
 
 /* прибираємо маркери списку */

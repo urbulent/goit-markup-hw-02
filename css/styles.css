@@ -158,11 +158,11 @@ a {
     color: #434455;
 }
 
-.mailto:hover {
+.mailto:hover, .mailto:focus {
     color:#404BBF
 }
 
-.telto:hover{
+.telto:hover, .telto:focus{
     color:#404BBF
 }
 
